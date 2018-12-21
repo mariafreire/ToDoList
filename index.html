@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>To Do List</title>
+   	<link rel="stylesheet" href="todo_list.css">
+   	<script src="todo_list.js"></script>
+</head>
+<body>
+    <section>
+		<h1>2DO</h1>
+		<h2>list</h2>
+		<svg height="100" width="100">
+			<line x1="0" y1="130" x2="200" y2="0" style="stroke:rgb(255,0,0);stroke-width:3" />
+		</svg>	  
+		<img src="plus.png" alt="plus" id="plus">
+		<svg height="100" width="250" id="ln">
+			<line x1="0" y1="0" x2="400" y2="0" style="stroke:#d1c7ac;stroke-width:3" />
+		</svg>
+        <label for="new_task"></label>
+	    <input type="text" id="new_task" class="txtInput" placeholder="Add a task">
+	    <input type="button" id="add_task" class="buttons" value="Add" onclick="add_element()"><br>
+	    <textarea id="task_list"></textarea><br>
+        <input type="text" id="next_task" class="txtInput">
+		<input type="button" id="show_next_task" class="buttons" onclick="show_task()" value="Show Next Task" disabled ><br>
+		<input type="button" id="back_list" class="buttons" onclick="back_list()" value="Not Done Yet"><br>
+		<input type="button" id="remove" class="buttons" onclick="remove()" value="Done"><br>
+	</section>
+</body>
+</html>

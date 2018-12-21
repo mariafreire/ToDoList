@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo:700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+    background-color: #AFBED1;    
+}
+
+body {
+    background-image: url(list.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    box-shadow: 0 0px 3px 2px #FCFCFA ;
+    margin: 0 auto;
+    width: 600px;
+    height: 460px;
+    position: relative;
+    top: 100px;
+}
+
+.txtInput{
+    border:1px solid #d1c7ac;
+    border-radius:4px;
+	width: 12em;
+	color:#333333;
+    padding:7px;
+    position: relative;
+    top: -15px;
+    left: 210px;
+    font-size: 17px;
+}
+
+#plus {
+    width: 25px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.buttons{
+    border:1px solid #d1c7ac;
+    border-radius:4px;
+    width: 6em;
+    height: 37px;
+	color:#333333;
+    padding:8px;
+    position: relative;
+    top: -15px;
+    left: 150px;
+    background-color: #007EA7;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+input[type="button"]:disabled {
+    background: #dddddd;
+    color: grey;
+}
+
+#next_task {
+    border:1px solid #d1c7ac;
+    border-radius:4px;
+	width: 265px;
+	color:#333333;
+    padding:7px;
+    position: relative;
+    top: -205px;
+    left: 265px;
+}
+
+#show_next_task {
+	width: 280px;
+    padding:7px;
+    position: relative;
+    top: -275px;
+    left: 265px;
+}
+
+#back_list {
+    width: 9em;
+    float: left;
+    padding:7px;
+    position: relative;
+    top: -220px;
+    left: 275px;
+    background-color: #52796F;
+}
+
+#remove {
+    width: 9em;
+    padding:7px;
+    position: relative;
+    top: -238px;
+    left: 280px;
+    background-color: #57A773;    
+}
+
+textarea {
+	height: 15em;
+	width: 10em;
+    padding:7px;
+    position: relative;
+    top: -50px;
+    left: 18px;
+    color: #007EA7;
+    font-family: 'Aleo', serif;
+    font-size: 18px;
+    background-color: #FCFCFA;
+    box-shadow: 0 0px 5px 5px #FCFCFA;
+}
+
+section {
+    padding: 0 2em 1em;
+}
+label {
+	float: left;
+    width: 5em;
+    text-align: right;
+    padding-bottom: .5em;
+}
+
+h1, h2 {
+    font-family: 'Aleo', serif;
+    font-size: 40px;
+    font-weight: bolder;
+    z-index: 2;
+    position: relative;
+    top: -10px;
+    left: 50px;
+    display: inline-block;
+}
+
+h2 {
+    font-family: Indie Flower;
+    font-size: 30px;  
+    transform: rotate(-25deg);
+    position: relative;
+    left: 50px;
+    top: -20px;
+}
+
+svg {
+    position: relative;
+    top: -3px;
+    left: -40px;
+}
+
+#ln {
+    position: relative;
+    top: 165px;
+    left: 20px;
+}
